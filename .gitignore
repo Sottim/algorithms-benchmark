@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs and outputs
+*.log
+outputs/
+logs/
+exp_output/
+cache/
+results/
+
+# Datasets and large files
+datasets/
+WSI/
+example/output/
+example/test_dataset/
+notebooks/input_dir/patches/
+notebooks/input_dir/masks/
+
+# Checkpoints and models
+*.pth
+*.bin
+*.npz
+*.tar
+*.h5
+
+# Docker
+/docker/
+
+# MacOS
+.DS_Store
+
+# Misc
+*.swp
+*.swo
+
+# # Ignore notebooks outputs
+# notebooks/*/*.ipynb
+
+# Allow example configs and readmes
+!WSI/preprocessing_example.yaml
+!README.md 
